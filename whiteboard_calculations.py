@@ -199,6 +199,6 @@ if __name__ == "__main__":
     sanity_check_map(m_map)
 
     # Example usage of single m value calculation
-    # k = 4
-    # result = find_m_for_k(k, m_limit=1000)
-    # print(result)
+    k = 16
+    result = find_m_for_k(k, m_limit=1000)
+    print(result[0])

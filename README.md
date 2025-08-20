@@ -52,8 +52,6 @@ Depending on your value of `k`, you will need to up the `m_limit` parameter. The
 ### Generate all valid values for `k = 1..N`
 
 ```python
-from solver import generate_m_map
-
 # Generate mapping k -> m for k up to 200
 m_map = generate_m_map(200, m_limit=500)
 
